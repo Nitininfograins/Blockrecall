@@ -1,0 +1,41 @@
+.logo {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+
+    &__block {
+        color: white;
+    }
+
+    &__recall {
+        color: #01e0bb;
+    }
+
+    // Logo sizes
+    &--sm {
+        font-size: 1.25rem;
+    }
+
+    &--md {
+        font-size: 1.5rem;
+    }
+
+    &--lg {
+        font-size: 2.5rem;
+    }
+}
+
+.container_logo {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo-showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
